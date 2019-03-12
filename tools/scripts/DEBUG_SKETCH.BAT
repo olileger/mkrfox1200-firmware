@@ -1,0 +1,8 @@
+@ECHO OFF
+
+CALL UPLOAD_SKETCH.BAT %1
+
+ECHO.
+ECHO ##### RUNNING DEBUG #####
+ECHO.
+serialport-term -b 115200 -p %1

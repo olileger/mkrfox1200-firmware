@@ -1,0 +1,3 @@
+@ECHO OFF
+
+MKRFOX1200_CLI.BAT upload %1
